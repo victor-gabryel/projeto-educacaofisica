@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+/*
+#68F4B8
+#29F099
+#07F2DC
+#2BC3F0
+#1BF54C
+#47F22C
+*/
+
+:root {
+    --cor0: #68F4B8;
+    --cor1: #29F099;
+    --cor2: #07F2DC;
+    --cor3: #2BC3F0;
+    --cor4: #1BF54C;
+    --cor5: #47F22C;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Unbounded';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2), var(--cor0));
+    font-family: var(--fonte-padrao);
+
+}
+
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
+    background-color: var(--cor1);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    color: black;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 0px -2px 5px #060606d3;
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: black;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.192)
+}
+
+
+
+nav {
+    background-image: linear-gradient(to left, var(--cor1), var(--cor0));
+    padding: 12px;
+    box-shadow: 0px 7px 9px black;
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3;
+}
+
+nav > a:hover {
+    background-color: var(--cor);
+    color: var(--cor3);
+}
+
+
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.775);
+    border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+
+main h1 {
+
+}
+
+main h2 {
+
+}
+
+main p {
+    margin: 20px 0px 20px 0px;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+main img {
+    width: 100%;
+}
+
+    
+
+aside {
+
+}
+
+
+
+footer {
+    background-color: var(--cor1);
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    padding: 8px;
+}
+
+footer > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
