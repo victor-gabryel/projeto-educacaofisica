@@ -118,6 +118,23 @@ main p {
     line-height: 1.5em;
 }
 
+main a {
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.3;
+}
+
+main a:hover {
+    background-color: var(--cor);
+    color: var(--cor3);
+}
+
+main li {
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+}
+
 main img {
     width: 100%;
 }
