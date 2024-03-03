@@ -69,7 +69,6 @@ header > p {
 
 nav {
     background-color: #27E792;
-    
     padding: 12px;
     box-shadow: 0px 7px 9px black;
 }
@@ -80,7 +79,7 @@ nav > a {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 0.3;
+    transition-duration: 0.5s;
 }
 
 nav > a:hover {
@@ -101,10 +100,6 @@ main {
     border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
 }
 
-main h1 {
-
-}
-
 main h2 {
     margin: 30px 0px 30px 0px;
 
@@ -122,7 +117,7 @@ main a {
     color: black;
     border-radius: 5px;
     text-decoration: none;
-    transition-duration: 0.3;
+    transition-duration: 0.5s;
 }
 
 main a:hover {
@@ -155,7 +150,7 @@ div.video > iframe {
     height: 90%;
 }
 
-    
+  
 
 aside {
 
@@ -163,18 +158,19 @@ aside {
 
 aside > ul {
     list-style-position: inside;
-    columns: 1;
+    columns: 1
 }
 
 aside li {
     padding: 20px 0px 20px 0px;
 }
 
-aside li > abbr {
-    text-decoration: none;
+div.esporte {
+    background-color: #07F2DC;
+    padding: 15px;
+    text-align: center;
+    display: none;
 }
-
-
 
 footer {
     background-color: var(--cor1);
